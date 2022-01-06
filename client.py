@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 from tkinter import *
 
 
-
 client_socket = socket.socket()
 hostname = socket.gethostname()
 host = socket.gethostbyname(hostname)
